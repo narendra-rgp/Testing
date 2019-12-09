@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [sample]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="sample(failed)">
+    <classes>
+      <class name="na.flipkart.flipkart">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="BeforeClass"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+          <include name="remove_item"/>
+          <include name="add_cart"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- na.flipkart.flipkart -->
+    </classes>
+  </test> <!-- sample(failed) -->
+</suite> <!-- Failed suite [sample] -->

@@ -6,7 +6,6 @@
       <class name="na.flipkart.flipkart">
         <methods>
           <include name="BeforeClass"/>
-          <include name="remove_item"/>
           <include name="beforeSuite"/>
           <include name="aftermethod"/>
           <include name="beforemethod"/>

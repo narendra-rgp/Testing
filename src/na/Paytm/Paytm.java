@@ -8,7 +8,7 @@ import nari.framework.BaseClass;
 import nari.framework.paytmData;
 
 public class Paytm extends BaseClass{
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public static void paytm_recharge() throws InterruptedException {
 		
 		

@@ -17,7 +17,7 @@ public class flipkart  extends BaseClass{
 	@Test(enabled = true)
 	public static void add_cart() throws IOException, InterruptedException {
 		
-		CommonMethods.launch_Application("chrome",flipkartData.Url);
+		CommonMethods.launch_Application("firefox",flipkartData.Url);
 		Data_Utils.Excel(System.getProperty("user.dir")+"\\Test-Data\\Sample.xlsx","Sheet1", "TC_01");
 		Thread.sleep(3000);
 		
